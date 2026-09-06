@@ -1,0 +1,6 @@
+{
+  "name": "CraftHub",
+  "description": "A unified technology ecosystem connecting students, creators, startups, research laboratories, and infrastructure to build, contribute, and discover real-world opportunities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

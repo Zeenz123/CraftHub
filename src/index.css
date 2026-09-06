@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #060b19;
+    color: #f1f5f9;
+    overflow-x: hidden;
+  }
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom premium dark navy scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #060b19;
+}
+::-webkit-scrollbar-thumb {
+  background: #192a56;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Reference image card & container styling */
+.ch-card {
+  background-color: rgba(11, 21, 48, 0.92);
+  border: 1px solid #192a56;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.ch-card:hover {
+  border-color: #2b4b96;
+}
+
+.ch-card-glow {
+  background-color: rgba(11, 21, 48, 0.95);
+  border: 1px solid #1e3a7a;
+  box-shadow: 0 0 25px rgba(29, 99, 255, 0.15);
+  border-radius: 1rem;
+}
+
+.ch-btn-primary {
+  background: linear-gradient(135deg, #1e6bff 0%, #1557db 100%);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 2px 12px rgba(30, 107, 255, 0.35);
+}
+
+.ch-btn-primary:hover {
+  background: linear-gradient(135deg, #2a75ff 0%, #1d60ee 100%);
+  box-shadow: 0 4px 18px rgba(30, 107, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.ch-btn-secondary {
+  background-color: #0d1838;
+  border: 1px solid #1d3166;
+  color: #cbd5e1;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease;
+}
+
+.ch-btn-secondary:hover {
+  background-color: #12214c;
+  color: #ffffff;
+  border-color: #2b478d;
+}
