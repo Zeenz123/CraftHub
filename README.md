@@ -238,7 +238,13 @@ CraftHub is designed to connect people, organizations, projects, resources, and 
 ### 7. Expandable by design
 
 The architecture should support future ecosystem modules without requiring the entire platform to be rebuilt.
+## 📚 Research & Evidence
 
+Detailed research supporting the CraftHub Infrastructure Exchange:
+
+- [Infrastructure Exchange Research Report (PDF)](docs/CraftHub_Infrastructure_Exchange_Research_Evidence_Report.pdf)
+- [Infrastructure Exchange Research Report (DOCX)](docs/CraftHub_Infrastructure_Exchange_Research_Evidence_Report.docx)
+- [References & Sources](references/REFERENCES.md)
 ## 🤝 Contributing
 
 CraftHub is currently under active development.
