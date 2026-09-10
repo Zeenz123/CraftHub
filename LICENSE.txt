@@ -1,0 +1,7 @@
+CraftHub Infrastructure Exchange — Research Package
+
+Copyright © 2026 Synergy Squad / CraftHub project.
+
+This repository contains research and project documentation prepared for Smart India Hackathon 2026. Unless a separate license is stated for a particular source or referenced material, the original CraftHub documentation in this repository is provided for project evaluation, collaboration and reference.
+
+Third-party sources remain the property of their respective publishers and institutions.
